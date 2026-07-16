@@ -1,0 +1,16 @@
+main.aux
+main.bbl
+main.blg
+main.log
+main.out
+main.pdf
+main.toc
+
+
+echo "# wab-template" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Zaka53/wab-template.git
+git push -u origin main
